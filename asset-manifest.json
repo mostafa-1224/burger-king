@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/burger-king/static/css/main.f1896959.chunk.css",
+    "main.js": "/burger-king/static/js/main.4a47951e.chunk.js",
+    "main.js.map": "/burger-king/static/js/main.4a47951e.chunk.js.map",
+    "runtime-main.js": "/burger-king/static/js/runtime-main.829238bf.js",
+    "runtime-main.js.map": "/burger-king/static/js/runtime-main.829238bf.js.map",
+    "static/css/2.679831fc.chunk.css": "/burger-king/static/css/2.679831fc.chunk.css",
+    "static/js/2.5299fc28.chunk.js": "/burger-king/static/js/2.5299fc28.chunk.js",
+    "static/js/2.5299fc28.chunk.js.map": "/burger-king/static/js/2.5299fc28.chunk.js.map",
+    "index.html": "/burger-king/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/burger-king/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.f1896959.chunk.css.map": "/burger-king/static/css/main.f1896959.chunk.css.map",
+    "static/js/2.5299fc28.chunk.js.LICENSE.txt": "/burger-king/static/js/2.5299fc28.chunk.js.LICENSE.txt",
+    "static/media/Bottle.5f408a8a.png": "/burger-king/static/media/Bottle.5f408a8a.png",
+    "static/media/Layout.css": "/burger-king/static/media/Image2.8c2e5400.jpg",
+    "static/media/Burger.0efb300e.png": "/burger-king/static/media/Burger.0efb300e.png",
+    "static/media/Facebook.9a57ffad.png": "/burger-king/static/media/Facebook.9a57ffad.png",
+    "static/media/Food Image.db6c2be3.jpg": "/burger-king/static/media/Food Image.db6c2be3.jpg",
+    "static/media/Image.693649f5.png": "/burger-king/static/media/Image.693649f5.png",
+    "static/media/Instagram.2493ce0b.png": "/burger-king/static/media/Instagram.2493ce0b.png",
+    "static/media/Twitter.375bf952.png": "/burger-king/static/media/Twitter.375bf952.png",
+    "static/media/WhatsApp.e461252d.png": "/burger-king/static/media/WhatsApp.e461252d.png",
+    "static/media/Landing.css": "/burger-king/static/media/cover.838239d5.jpg",
+    "static/media/Footer.css": "/burger-king/static/media/footer-img.28e9f32a.jpg",
+    "static/media/logo.c23a6c9a.png": "/burger-king/static/media/logo.c23a6c9a.png",
+    "static/media/offer1.1b50f5ce.png": "/burger-king/static/media/offer1.1b50f5ce.png",
+    "static/media/offer2.2d30f8c0.png": "/burger-king/static/media/offer2.2d30f8c0.png",
+    "static/media/plate.e085370e.png": "/burger-king/static/media/plate.e085370e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.829238bf.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.5299fc28.chunk.js",
+    "static/css/main.f1896959.chunk.css",
+    "static/js/main.4a47951e.chunk.js"
+  ]
+}
