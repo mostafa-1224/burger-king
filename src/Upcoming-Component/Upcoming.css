@@ -1,0 +1,45 @@
+
+.container .up-coming{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    box-shadow: rgba(82, 82, 88, 0.2) 0px 15px 35px 0px;
+}
+.container .up-coming .upcoming-text{
+max-width: 40%;
+}
+.container .up-coming .upcoming-text p:first-child{
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+}
+.container .up-coming .upcoming-text h2{
+    font-family: 'Alfa Slab One';
+    font-size: 2.2em;
+    margin: 0;
+    font-weight: 500;
+    padding: 0;
+    text-transform: uppercase;
+}
+.container .up-coming .upcoming-text p:last-child{
+    line-height: 1.4em;
+    font-family:'Montserrat';
+    color: #908782;
+}
+.container .up-coming .upcoming-img{
+max-width: 55%;
+}
+.container .up-coming .upcoming-img img{
+max-width: 100%;
+}
+@media (max-width:767px) {
+.container .up-coming{
+    flex-wrap: wrap;
+}
+.container .up-coming .upcoming-text{
+    min-width: 100%;
+}
+.container .up-coming .upcoming-img{
+    min-width: 100%;
+}
+}

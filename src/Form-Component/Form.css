@@ -1,0 +1,86 @@
+
+#form-section{
+    position: relative;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+#form-section img{
+    position: absolute;
+
+}
+#form-section img:first-child{
+    top: -16px;
+    left:-88px;
+
+}
+#form-section img:nth-child(2){
+    top: 220px;
+    left: 110px;
+
+}
+#form-section img:nth-child(3){
+    bottom: -115px;
+    right:-260px;
+
+}
+.form-title{
+    width: 60%;
+    margin: auto;
+    z-index: 2;
+}
+.form-title p{
+    font-size: 27px;
+    letter-spacing: 0.05em;
+}
+.form-title h2{
+    font-family: 'Alfa Slab One';
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 0px;
+    z-index: 5;
+}
+
+.form-title .form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.form-title .form input{
+    width: 45%;
+    z-index: 5;
+    background: transparent;
+    border: 1px solid #908782;
+    font-size: 1.2em;
+    margin-right: 20px;
+    margin-bottom: 20px;  
+    padding: 20px;
+    border-radius: 5px;  
+}
+.form-title .form input[type=button]{
+    background-color: #bf2222;
+    color: white;
+    font-family: 'Alfa Slab One';
+}
+@media (max-width:767px) {
+    .form-title{
+        width: 90%;
+        margin: auto;
+    }
+    
+.form-title .form input{
+    width: 100%;
+    border: 1px solid #908782;
+    font-size: 1.2em;
+    margin-right: 20px;
+    margin-bottom: 20px;  
+    padding: 20px;
+    border-radius: 5px;  
+}
+    
+}

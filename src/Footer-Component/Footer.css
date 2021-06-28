@@ -1,0 +1,93 @@
+
+.container .footer{
+    background-image: url(../images/footer-img.jpg);
+    background: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    color: white;
+    padding: 10px 40px;
+}
+.container .footer img{
+    width: 370px;
+    padding-top:75px;
+    padding-bottom: 30px;
+}
+.container .footer .content{
+    display: flex;
+    justify-content: space-between;
+}
+.container .footer .content >p{
+    max-width: 45%;
+    line-height: 1.5em;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+.container .footer .content .contact{
+    width: 35%;
+    padding-top: 40px;
+}
+.container .footer .content .contact > div{
+    display: flex;
+    width: 100%;
+}
+.container .footer .content .contact > div img{
+    width: 30px;
+    height: 25px;
+    padding: 0;
+    margin-right: 31px;
+}
+.container .footer .content .contact > div p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+@media (max-width:767px) {
+    
+.container .footer .content{
+    flex-wrap: wrap;
+}
+.container .footer img{
+    width: 270px;
+    padding-top:75px;
+    padding-bottom: 30px;
+}
+.container .footer .content >p{
+    min-width: 100%;
+}
+.container .footer .content .contact{
+    width: 100%;
+}
+}
+.container .footer .social-media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.container .footer .social-media .icons img{
+    width: 30px;
+    padding: 0;
+    margin-right: 10px;
+}
+@media (max-width:767px) {
+    
+.container .footer img{
+    width: 270px;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+.container .footer .social-media{
+    margin-top: 0px;
+}
+.container .footer .social-media p{
+    font-size: 10px;
+}
+.container .footer .social-media .icons img{
+    width: 20px;
+    padding: 0;
+    margin-right: 5px;
+}
+}
+
+
+
+
+

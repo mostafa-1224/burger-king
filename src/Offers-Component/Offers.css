@@ -1,0 +1,53 @@
+
+.offers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+}
+
+.offers .offer{
+    width: 33%;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.offers .offer img{
+    max-width: 100%;
+}
+.offers .offer:nth-child(2) img{
+    width: 74.3%;
+}
+.offers .offer .offer-h2{
+    font-size: 2.2em;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0;
+}
+
+.offers .offer .offer-p{
+    font-family: 'Montserrat';
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #908782;
+}
+.offers .offer .offer-btn{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One';
+    background-color: #bf2222;
+    border: none;
+    margin-top: 15px;
+    padding: 15px 35px;
+}
+@media (max-width:767px) {
+    
+.offers .offer{
+    min-width: 100%;
+    padding: 0 20px;
+}
+
+.offers .offer img{
+    max-width: 50%;
+}
+}
